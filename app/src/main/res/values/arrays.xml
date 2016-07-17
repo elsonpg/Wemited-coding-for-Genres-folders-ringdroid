@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Nothing to be translated here-->
+
+    <string-array name="pref_theme_entries">
+        <item>@string/light</item>
+        <item>@string/dark</item>
+        <item>@string/black</item>
+    </string-array>
+
+    <string-array name="pref_theme_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>black</item>
+    </string-array>
+    <string-array name="swipe_action_entries">
+        <!-- This must match the order of swipe_action_values exactly -->
+        <item>@string/do_nothing</item>
+        <item>@string/play_pause</item>
+        <item>@string/next_song</item>
+        <item>@string/previous_song</item>
+
+    </string-array>
+    <string-array name="swipe_action_values">
+        <!-- This must match the order of swipe_action_entries exactly and
+             contain only values from PlaybackActivity.Action enum. -->
+        <item>Nothing</item>
+        <item>PlayPause</item>
+        <item>NextSong</item>
+        <item>PreviousSong</item>
+
+    </string-array>
+
+
+    <string-array name="pref_startpage_entries">
+        <item>@string/last_opened</item>
+        <item>@string/songs</item>
+        <item>@string/albums</item>
+        <item>@string/artists</item>
+    </string-array>
+
+    <string-array name="pref_startpage_values">
+        <item>last_opened</item>
+        <item>songs</item>
+        <item>albums</item>
+        <item>artists</item>
+    </string-array>
+</resources>
